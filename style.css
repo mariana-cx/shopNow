@@ -123,4 +123,20 @@ style2{
 
 .descrition{
     border: 1px solid red;
+    display: grid;
+    height: 100%;
+    width: -webkit-fill-available;
+    padding-left: 20px;
+}
+
+.paragrafFirst{
+    display: grid;
+    border-bottom:  1px solid rgb(234,229,229);
+}
+
+p2{
+    font-size: 30px;
+    color:rgba(0, 0, 0, 0.732)
+    
+    
 }

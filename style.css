@@ -69,7 +69,6 @@ style2{
 .contentCore{
     display: flex;
     padding-top: 25px;
-    border: 1px solid greenyellow;
     height: 550px;
     padding-left: 25px;
 }
@@ -77,7 +76,6 @@ style2{
 .imagens{
     display: grid;
     width: 600px;
-    border: 1px solid blue;
 }
 
 .imagenCenter{
@@ -106,7 +104,7 @@ style2{
     height: 140px;
     width: 190px;
     object-fit: cover;
-    object-position: 0px -100px;
+    object-position: 0px -80px;
 }
 
 .second{
@@ -124,7 +122,6 @@ style2{
 }
 
 .descrition{
-    border: 1px solid red;
     display: grid;
     height: 100%;
     width: -webkit-fill-available;
@@ -153,11 +150,14 @@ p2{
 h1{
     color: white;
     font-size: smaller;
+    padding-top: 15px;
+    margin-top: 3px;
+    margin-left: 40px;
 }
 
 .paragrafSecond{
     margin-top: 35px;
     color: gray;
-    font-size: small;
+    font-size: 15px;
 
 }

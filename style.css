@@ -32,7 +32,7 @@ body{
 .subtitle2{
     color: gray;
     display: flex;
-    margin-left: 60%;
+    margin-left: 63%;
     font-size: small;
 }
 
@@ -76,17 +76,19 @@ style2{
 
 .imagens{
     display: grid;
+    width: 600px;
+    border: 1px solid blue;
 }
 
 .imagenCenter{
     display: flex;
     height: 400px;
-    width: 100%;
+    width: 600px;
 }
 
 .center{
     height: 400px;
-    width: 650px;
+    width: 600px;
     object-fit: cover;
     object-position: center;
 }
@@ -102,21 +104,21 @@ style2{
 
 .first{
     height: 140px;
-    width: 210px;
+    width: 190px;
     object-fit: cover;
     object-position: 0px -100px;
 }
 
 .second{
     height: 140px;
-    width: 210px;
+    width: 190px;
     object-fit: cover;
     object-position: center;
 }
 
 .third{
     height: 140px;
-    width: 210px;
+    width: 190px;
     object-fit: cover;
     object-position: 0px 0px;
 }
@@ -132,11 +134,30 @@ style2{
 .paragrafFirst{
     display: grid;
     border-bottom:  1px solid rgb(234,229,229);
+    margin-top: 50px;
+    justify-content: flex-start;
+    padding-bottom: 35px;
 }
 
 p2{
     font-size: 30px;
     color:rgba(0, 0, 0, 0.732)
-    
-    
+}
+
+.botton{
+    background-color: rgb(62,62,63);
+    margin-right: 150px;
+    block-size: 50px;
+}
+
+h1{
+    color: white;
+    font-size: smaller;
+}
+
+.paragrafSecond{
+    margin-top: 35px;
+    color: gray;
+    font-size: small;
+
 }
